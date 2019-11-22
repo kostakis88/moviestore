@@ -1,6 +1,6 @@
 class Movie < ApplicationRecord
   def poster
-    "http://ia.media-imdb.com/images/M/#{poster_url}"
+    "https://m.media-amazon.com/images/M/#{poster_url}"
   end
 
   def imdb
