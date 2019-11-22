@@ -19,6 +19,13 @@ body {
     top: 2px;
   }
 }
+.top-bar {
+  background-color: transparent;
+  ul {
+    background-color: transparent;
+    list-style: none;
+  }
+}
 // Topbar items
 .top-bar-section ul li { background: transparent }
 // Forms
@@ -28,4 +35,9 @@ body {
     position: relative;
     top: -5px;
   }
+}
+
+.row {
+  max-width: 1280px;
+  margin: 0 auto;
 }
